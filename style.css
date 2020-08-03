@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+/* Background */
+.circle {
+  width: 100vw;
+  height: 100vh;
+}
+
+.circle path {
+  fill: #6699CC;
+  opacity: 0.3;
+}
+
+/* Character */
+.character {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.character #path {
+  clip-path: url(#clipPath);
+  fill: none;
+  stroke: #505050;
+  stroke-width: 29;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
